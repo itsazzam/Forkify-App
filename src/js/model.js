@@ -116,6 +116,7 @@ export const removeBookmark = function (id) {
 // upload recipe function
 export const uploadRecipe = async function (newRecipe) {
   try {
+    console.log('New feature');
     console.log(newRecipe);
     // return an array of ingredients
     const ingredients = Object.entries(newRecipe)
